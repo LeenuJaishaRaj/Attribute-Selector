@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Attribute Selector 2</title>
+    <style>
+        [id|="head"]{
+            color: hotpink;
+            font-size: 25px;
+        }
+        [id~="head"]{
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <p id="head">Heading One</p>
+    <p id="head-one">Highlight for the heading</p>
+    <p id="head-two">High Kick Movie</p>
+    <p id="third-head">kicking the ball.</p>
+    <p id="head-four">Highlight for the heading for the second time.</p>
+</body>
+</html>
